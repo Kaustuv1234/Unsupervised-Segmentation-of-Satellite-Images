@@ -1,0 +1,756 @@
+
+
+
+
+Namespace(manualSeed=85
+dataset='Vaihingen'
+nFeaturesFinalLayer=8
+no_patches=690
+trainingBatchSize=4
+trainingPatchSize=448
+trainingStrideSize=448
+modelName='Model_BYOL')
+no of patches 595
+Training Vaihingen_Model.pth
+
+
+
+
+Namespace(manualSeed=85
+dataset='Potsdam_RGB'
+nFeaturesFinalLayer=8
+no_patches=690
+trainingBatchSize=4
+trainingPatchSize=448
+trainingStrideSize=448
+modelName='Model_BYOL')
+no of patches 690
+Training Potsdam_RGB_Model.pth
+
+
+
+
+Namespace(manualSeed=85
+dataset='Potsdam_RGBIR'
+nFeaturesFinalLayer=8
+no_patches=690
+trainingBatchSize=4
+trainingPatchSize=448
+trainingStrideSize=448
+modelName='Model_BYOL')
+no of patches 690
+Training Potsdam_RGBIR_Model.pth
+
+
+
+
+Namespace(manualSeed=85
+dataset='Vaihingen'
+nFeaturesFinalLayer=8
+no_patches=690
+trainingBatchSize=4
+trainingPatchSize=448
+trainingStrideSize=448
+modelName='Model6')
+no of patches 595
+Training Vaihingen_Model.pth
+
+
+
+
+Namespace(manualSeed=85
+dataset='Potsdam_RGB'
+nFeaturesFinalLayer=8
+no_patches=690
+trainingBatchSize=4
+trainingPatchSize=448
+trainingStrideSize=448
+modelName='Model6')
+no of patches 690
+Training Potsdam_RGB_Model.pth
+
+
+
+
+Namespace(manualSeed=85
+dataset='Potsdam_RGBIR'
+nFeaturesFinalLayer=8
+no_patches=690
+trainingBatchSize=4
+trainingPatchSize=448
+trainingStrideSize=448
+modelName='Model6')
+no of patches 690
+Training Potsdam_RGBIR_Model.pth
+
+
+
+
+        Namespace(dataset='Vaihingen'
+        classes=3
+        nFeaturesFinalLayer=8
+        modelName='Model_BYOL'
+        superpixel_refine=False)
+        Testing ./trainedModels/Vaihingen_Model_BYOL_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Vaihingen_Model_BYOL_8.pth
+        ************************************
+        mean f1: 0.6978594372859871 
+        mean iou: 0.541747220337686 
+        OA: 0.7136657910340007
+
+        ************************************
+        MY METRICS./trainedModels/Vaihingen_Model_BYOL_8.pth
+        ************************************
+        class wise IOU: [0.5000258 0.450315  0.6749008] mean: 0.5417472
+        micro iou tensor(0.5548)
+        macro iou tensor(0.5417)
+        macro acc tensor(0.8091)
+        micro acc tensor(0.8091)
+
+
+
+
+
+
+Namespace(dataset='Vaihingen'
+classes=3
+nFeaturesFinalLayer=8
+modelName='Model_BYOL'
+superpixel_refine=True)
+Testing ./trainedModels/Vaihingen_Model_BYOL_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Vaihingen_Model_BYOL_8.pth
+************************************
+mean f1: 0.7373957702776162 
+mean iou: 0.589134240926756 
+OA: 0.7533118075431975
+
+************************************
+MY METRICS./trainedModels/Vaihingen_Model_BYOL_8.pth
+************************************
+class wise IOU: [0.5323525  0.51633334 0.7187168 ] mean: 0.5891342
+micro iou tensor(0.6043)
+macro iou tensor(0.5891)
+macro acc tensor(0.8355)
+micro acc tensor(0.8355)
+
+
+
+
+
+
+        Namespace(dataset='Potsdam_RGB'
+        classes=3
+        nFeaturesFinalLayer=8
+        modelName='Model_BYOL'
+        superpixel_refine=False)
+        Testing ./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+        ************************************
+        mean f1: 0.6142980835787702 
+        mean iou: 0.4496107253271851 
+        OA: 0.6223521577064606
+
+        ************************************
+        MY METRICS./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+        ************************************
+        class wise IOU: [0.4752524  0.32348493 0.55009484] mean: 0.4496107
+        micro iou tensor(0.4517)
+        macro iou tensor(0.4496)
+        macro acc tensor(0.7482)
+        micro acc tensor(0.7482)
+
+
+
+
+
+
+Namespace(dataset='Potsdam_RGB'
+classes=3
+nFeaturesFinalLayer=8
+modelName='Model_BYOL'
+superpixel_refine=True)
+Testing ./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+************************************
+mean f1: 0.6008518032725386 
+mean iou: 0.43905374155168025 
+OA: 0.6203798739547902
+
+************************************
+MY METRICS./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+************************************
+class wise IOU: [0.4864306  0.28070933 0.5500213 ] mean: 0.43905374
+micro iou tensor(0.4497)
+macro iou tensor(0.4391)
+macro acc tensor(0.7469)
+micro acc tensor(0.7469)
+
+
+
+
+
+
+        Namespace(dataset='Potsdam_RGBIR'
+        classes=3
+        nFeaturesFinalLayer=8
+        modelName='Model_BYOL'
+        superpixel_refine=False)
+        Testing ./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+        ************************************
+        mean f1: 0.6320801436519567 
+        mean iou: 0.4769767262393274 
+        OA: 0.6499543432514375
+
+        ************************************
+        MY METRICS./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+        ************************************
+        class wise IOU: [0.492933  0.2897149 0.6482823] mean: 0.47697672
+        micro iou tensor(0.4814)
+        macro iou tensor(0.4770)
+        macro acc tensor(0.7666)
+        micro acc tensor(0.7666)
+
+
+
+
+
+
+Namespace(dataset='Potsdam_RGBIR'
+classes=3
+nFeaturesFinalLayer=8
+modelName='Model_BYOL'
+superpixel_refine=True)
+Testing ./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+************************************
+mean f1: 0.5998709493220288 
+mean iou: 0.4418310296316273 
+OA: 0.6208468611123765
+
+************************************
+MY METRICS./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+************************************
+class wise IOU: [0.47364387 0.2610553  0.5907939 ] mean: 0.44183102
+micro iou tensor(0.4502)
+macro iou tensor(0.4418)
+macro acc tensor(0.7472)
+micro acc tensor(0.7472)
+
+
+
+
+
+
+        Namespace(dataset='Vaihingen'
+        classes=3
+        nFeaturesFinalLayer=8
+        modelName='Model6'
+        superpixel_refine=False)
+        Testing ./trainedModels/Vaihingen_Model6_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Vaihingen_Model6_8.pth
+        ************************************
+        mean f1: 0.7031762799489853 
+        mean iou: 0.5530161931172861 
+        OA: 0.7369666357148318
+
+        ************************************
+        MY METRICS./trainedModels/Vaihingen_Model6_8.pth
+        ************************************
+        class wise IOU: [0.4695936  0.4484413  0.74101365] mean: 0.5530162
+        micro iou tensor(0.5835)
+        macro iou tensor(0.5530)
+        macro acc tensor(0.8246)
+        micro acc tensor(0.8246)
+
+
+
+
+
+
+Namespace(dataset='Vaihingen'
+classes=3
+nFeaturesFinalLayer=8
+modelName='Model6'
+superpixel_refine=True)
+Testing ./trainedModels/Vaihingen_Model6_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Vaihingen_Model6_8.pth
+************************************
+mean f1: 0.7093610224809398 
+mean iou: 0.5584697548042038 
+OA: 0.7406870617796383
+
+************************************
+MY METRICS./trainedModels/Vaihingen_Model6_8.pth
+************************************
+class wise IOU: [0.4927163  0.45538622 0.7273067 ] mean: 0.5584698
+micro iou tensor(0.5882)
+macro iou tensor(0.5585)
+macro acc tensor(0.8271)
+micro acc tensor(0.8271)
+
+
+
+
+
+
+        Namespace(dataset='Potsdam_RGB'
+        classes=3
+        nFeaturesFinalLayer=8
+        modelName='Model6'
+        superpixel_refine=False)
+        Testing ./trainedModels/Potsdam_RGB_Model6_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Potsdam_RGB_Model6_8.pth
+        ************************************
+        mean f1: 0.627131837837557 
+        mean iou: 0.46287488740228594 
+        OA: 0.6343184886026583
+
+        ************************************
+        MY METRICS./trainedModels/Potsdam_RGB_Model6_8.pth
+        ************************************
+        class wise IOU: [0.44592988 0.35598832 0.5867064 ] mean: 0.4628749
+        micro iou tensor(0.4645)
+        macro iou tensor(0.4629)
+        macro acc tensor(0.7562)
+        micro acc tensor(0.7562)
+
+
+
+
+
+
+Namespace(dataset='Potsdam_RGB'
+classes=3
+nFeaturesFinalLayer=8
+modelName='Model6'
+superpixel_refine=True)
+Testing ./trainedModels/Potsdam_RGB_Model6_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Potsdam_RGB_Model6_8.pth
+************************************
+mean f1: 0.6227997735476055 
+mean iou: 0.45701996426471464 
+OA: 0.6282607246302538
+
+************************************
+MY METRICS./trainedModels/Potsdam_RGB_Model6_8.pth
+************************************
+class wise IOU: [0.45174   0.3571628 0.5621571] mean: 0.45701995
+micro iou tensor(0.4580)
+macro iou tensor(0.4570)
+macro acc tensor(0.7522)
+micro acc tensor(0.7522)
+
+
+
+
+
+
+        Namespace(dataset='Potsdam_RGBIR'
+        classes=3
+        nFeaturesFinalLayer=8
+        modelName='Model6'
+        superpixel_refine=False)
+        Testing ./trainedModels/Potsdam_RGBIR_Model6_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Potsdam_RGBIR_Model6_8.pth
+        ************************************
+        mean f1: 0.6600881759512777 
+        mean iou: 0.5078466361398332 
+        OA: 0.676596693132238
+
+        ************************************
+        MY METRICS./trainedModels/Potsdam_RGBIR_Model6_8.pth
+        ************************************
+        class wise IOU: [0.49293372 0.32936203 0.7012442 ] mean: 0.50784665
+        micro iou tensor(0.5113)
+        macro iou tensor(0.5078)
+        macro acc tensor(0.7844)
+        micro acc tensor(0.7844)
+
+
+
+
+
+
+Namespace(dataset='Potsdam_RGBIR'
+classes=3
+nFeaturesFinalLayer=8
+modelName='Model6'
+superpixel_refine=True)
+Testing ./trainedModels/Potsdam_RGBIR_Model6_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Potsdam_RGBIR_Model6_8.pth
+************************************
+mean f1: 0.6257445966986489 
+mean iou: 0.46571978363730276 
+OA: 0.6395232432630791
+
+************************************
+MY METRICS./trainedModels/Potsdam_RGBIR_Model6_8.pth
+************************************
+class wise IOU: [0.45289752 0.3207033  0.6235586 ] mean: 0.4657198
+micro iou tensor(0.4701)
+macro iou tensor(0.4657)
+macro acc tensor(0.7597)
+micro acc tensor(0.7597)
+
+
+
+
+
+
+        Namespace(dataset='Vaihingen'
+        classes=6
+        nFeaturesFinalLayer=8
+        modelName='Model_BYOL'
+        superpixel_refine=False)
+        Testing ./trainedModels/Vaihingen_Model_BYOL_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Vaihingen_Model_BYOL_8.pth
+        ************************************
+        mean f1: 0.5123657123581167 
+        mean iou: 0.3645366566054541 
+        OA: 0.5994430048810121
+
+        ************************************
+        MY METRICS./trainedModels/Vaihingen_Model_BYOL_8.pth
+        ************************************
+        class wise IOU: [0.4945593  0.44339347 0.3505923  0.46138334 0.0718312 ] mean: 0.36435193
+        micro iou tensor(0.4282)
+        macro iou tensor(0.3644)
+        macro acc tensor(0.8399)
+        micro acc tensor(0.8399)
+
+
+
+
+
+
+Namespace(dataset='Vaihingen'
+classes=6
+nFeaturesFinalLayer=8
+modelName='Model_BYOL'
+superpixel_refine=True)
+Testing ./trainedModels/Vaihingen_Model_BYOL_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Vaihingen_Model_BYOL_8.pth
+************************************
+mean f1: 0.5233578725362643 
+mean iou: 0.3807965411279018 
+OA: 0.6287813105046528
+
+************************************
+MY METRICS./trainedModels/Vaihingen_Model_BYOL_8.pth
+************************************
+class wise IOU: [0.51034474 0.5140343  0.3213411  0.49879608 0.05614536] mean: 0.38013232
+micro iou tensor(0.4594)
+macro iou tensor(0.3801)
+macro acc tensor(0.8520)
+micro acc tensor(0.8520)
+
+
+
+
+
+
+        Namespace(dataset='Potsdam_RGB'
+        classes=6
+        nFeaturesFinalLayer=8
+        modelName='Model_BYOL'
+        superpixel_refine=False)
+        Testing ./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+        ************************************
+        mean f1: 0.4240921306137683 
+        mean iou: 0.2900543665113167 
+        OA: 0.46475958198569606
+
+        ************************************
+        MY METRICS./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+        ************************************
+        class wise IOU: [0.47819874 0.23957053 0.38975158 0.1012348  0.11566608] mean: 0.26488432
+        micro iou tensor(0.3425)
+        macro iou tensor(0.2649)
+        macro acc tensor(0.8215)
+        micro acc tensor(0.8215)
+
+
+
+
+
+
+Namespace(dataset='Potsdam_RGB'
+classes=6
+nFeaturesFinalLayer=8
+modelName='Model_BYOL'
+superpixel_refine=True)
+Testing ./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+************************************
+mean f1: 0.4016176446597193 
+mean iou: 0.2781650280309106 
+OA: 0.4765230950546141
+
+************************************
+MY METRICS./trainedModels/Potsdam_RGB_Model_BYOL_8.pth
+************************************
+class wise IOU: [0.4716001  0.2878663  0.38203683 0.04231814 0.08728073] mean: 0.25422043
+micro iou tensor(0.3553)
+macro iou tensor(0.2542)
+macro acc tensor(0.8270)
+micro acc tensor(0.8270)
+
+
+
+
+
+
+        Namespace(dataset='Potsdam_RGBIR'
+        classes=6
+        nFeaturesFinalLayer=8
+        modelName='Model_BYOL'
+        superpixel_refine=False)
+        Testing ./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+        ************************************
+        mean f1: 0.4492217958399364 
+        mean iou: 0.3085325054420477 
+        OA: 0.48647340725724814
+
+        ************************************
+        MY METRICS./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+        ************************************
+        class wise IOU: [0.49151888 0.22511446 0.3924317  0.23962328 0.08541027] mean: 0.28681973
+        micro iou tensor(0.3602)
+        macro iou tensor(0.2868)
+        macro acc tensor(0.8272)
+        micro acc tensor(0.8272)
+
+
+
+
+
+
+Namespace(dataset='Potsdam_RGBIR'
+classes=6
+nFeaturesFinalLayer=8
+modelName='Model_BYOL'
+superpixel_refine=True)
+Testing ./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+************************************
+mean f1: 0.40774985635958727 
+mean iou: 0.2798754435709967 
+OA: 0.4732603537136581
+
+************************************
+MY METRICS./trainedModels/Potsdam_RGBIR_Model_BYOL_8.pth
+************************************
+class wise IOU: [0.45107934 0.26655942 0.3575958  0.22328992 0.        ] mean: 0.2597049
+micro iou tensor(0.3489)
+macro iou tensor(0.2597)
+macro acc tensor(0.8234)
+micro acc tensor(0.8234)
+
+
+
+
+
+
+        Namespace(dataset='Vaihingen'
+        classes=6
+        nFeaturesFinalLayer=8
+        modelName='Model6'
+        superpixel_refine=False)
+        Testing ./trainedModels/Vaihingen_Model6_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Vaihingen_Model6_8.pth
+        ************************************
+        mean f1: 0.48815103927365877 
+        mean iou: 0.35300462145403644 
+        OA: 0.6034174842269329
+
+        ************************************
+        MY METRICS./trainedModels/Vaihingen_Model6_8.pth
+        ************************************
+        class wise IOU: [0.47188282 0.4323446  0.23859249 0.583589   0.03771169] mean: 0.35282412
+        micro iou tensor(0.4323)
+        macro iou tensor(0.3528)
+        macro acc tensor(0.8415)
+        micro acc tensor(0.8415)
+
+
+
+
+
+
+Namespace(dataset='Vaihingen'
+classes=6
+nFeaturesFinalLayer=8
+modelName='Model6'
+superpixel_refine=True)
+Testing ./trainedModels/Vaihingen_Model6_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Vaihingen_Model6_8.pth
+************************************
+mean f1: 0.4738298398720605 
+mean iou: 0.34525508373125574 
+OA: 0.6036006008327776
+
+************************************
+MY METRICS./trainedModels/Vaihingen_Model6_8.pth
+************************************
+class wise IOU: [0.4846554  0.43981642 0.23728    0.5636407  0.        ] mean: 0.34507853
+micro iou tensor(0.4325)
+macro iou tensor(0.3451)
+macro acc tensor(0.8416)
+micro acc tensor(0.8416)
+
+
+
+
+
+
+        Namespace(dataset='Potsdam_RGB'
+        classes=6
+        nFeaturesFinalLayer=8
+        modelName='Model6'
+        superpixel_refine=False)
+        Testing ./trainedModels/Potsdam_RGB_Model6_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Potsdam_RGB_Model6_8.pth
+        ************************************
+        mean f1: 0.4517567505742364 
+        mean iou: 0.30770889972106 
+        OA: 0.4587646523918347
+
+        ************************************
+        MY METRICS./trainedModels/Potsdam_RGB_Model6_8.pth
+        ************************************
+        class wise IOU: [0.45349196 0.24988575 0.41512033 0.1349997  0.14483686] mean: 0.27966693
+        micro iou tensor(0.3445)
+        macro iou tensor(0.2797)
+        macro acc tensor(0.8254)
+        micro acc tensor(0.8254)
+
+
+
+
+
+
+Namespace(dataset='Potsdam_RGB'
+classes=6
+nFeaturesFinalLayer=8
+modelName='Model6'
+superpixel_refine=True)
+Testing ./trainedModels/Potsdam_RGB_Model6_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Potsdam_RGB_Model6_8.pth
+************************************
+mean f1: 0.3996647949166315 
+mean iou: 0.2754101092484299 
+OA: 0.45027708814180434
+
+************************************
+MY METRICS./trainedModels/Potsdam_RGB_Model6_8.pth
+************************************
+class wise IOU: [0.43986052 0.25436008 0.40866396 0.13125773 0.01516583] mean: 0.24986164
+micro iou tensor(0.3391)
+macro iou tensor(0.2499)
+macro acc tensor(0.8245)
+micro acc tensor(0.8245)
+
+
+
+
+
+
+        Namespace(dataset='Potsdam_RGBIR'
+        classes=6
+        nFeaturesFinalLayer=8
+        modelName='Model6'
+        superpixel_refine=False)
+        Testing ./trainedModels/Potsdam_RGBIR_Model6_8.pth
+
+        ************************************
+        SSSS METRICS./trainedModels/Potsdam_RGBIR_Model6_8.pth
+        ************************************
+        mean f1: 0.4632710961299689 
+        mean iou: 0.32054770321795156 
+        OA: 0.4914735250964225
+
+        ************************************
+        MY METRICS./trainedModels/Potsdam_RGBIR_Model6_8.pth
+        ************************************
+        class wise IOU: [0.50550425 0.16668679 0.42650393 0.26320374 0.12838836] mean: 0.2980574
+        micro iou tensor(0.3657)
+        macro iou tensor(0.2981)
+        macro acc tensor(0.8295)
+        micro acc tensor(0.8295)
+
+
+
+
+
+
+Namespace(dataset='Potsdam_RGBIR'
+classes=6
+nFeaturesFinalLayer=8
+modelName='Model6'
+superpixel_refine=True)
+Testing ./trainedModels/Potsdam_RGBIR_Model6_8.pth
+
+************************************
+SSSS METRICS./trainedModels/Potsdam_RGBIR_Model6_8.pth
+************************************
+mean f1: 0.4284096627242038 
+mean iou: 0.2909375478730451 
+OA: 0.47302232253578513
+
+************************************
+MY METRICS./trainedModels/Potsdam_RGBIR_Model6_8.pth
+************************************
+class wise IOU: [0.46661642 0.19504549 0.37691978 0.24897607 0.06647738] mean: 0.27080703
+micro iou tensor(0.3480)
+macro iou tensor(0.2708)
+macro acc tensor(0.8227)
+micro acc tensor(0.8227)
+
+
